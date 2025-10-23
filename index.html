@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="../miniProject-25Oct2025-revoU/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body class="font-sans bg-[#FAF8F1] text-white" >
+<body class="font-sans bg-[#F0F0F0] " >
     <!-- Header Content -->
-    <header class="flex justify-between items-center bg-[#132440] text-[12px] sm:text-[16px]">
+    <header class="flex justify-between sticky z-999 top-0 items-center bg-[#132440] text-[10px] sm:text-[16px]">
         <!-- logo -->
          <div class="pl-2 sm:pl-5"> <img src="../miniProject-25Oct2025-revoU/asset/logo-pertamina.jpg" alt="LogoPertamina" srcset="" class="main-logo h-[45px] sm:h-[65px] w-[45px] sm:w-[65px] rounded-full m-1 sm:m-2"></div>
 
          <!-- navigation menu -->
-          <nav class="flex gap-1 sm:2 pr-2 sm:2 text-white">
-            <a href="#" class="p-1 sm:p-2 rounded-sm">Home</a>
-            <a href="#" class="p-1 sm:p-2 rounded-sm">Out Profile</a>
+          <nav class="flex gap-1  sm:2 pr-2 sm:2 text-white">
+            <a href="#home-section" class="p-1 sm:p-2 rounded-sm">Home</a>
+            <a href="#Our-Profile" class="p-1 sm:p-2 rounded-sm">Our Profile</a>
             <a href="#" class="p-1 sm:p-2 rounded-sm">Portofolio</a>
             <a href="#" class="p-1 sm:p-2 rounded-sm">MessageUs</a>
           </nav>
@@ -25,12 +25,25 @@
     <!-- main Content -->
     <main>
         <!-- HOME SECTION -->
-        <section class="p-10 bg-[#132440] min-h-[500px] bg-size-[500px] bg-no-repeat bg-nore" style="background-image: url(../miniProject-25Oct2025-revoU/asset/pertamina1.jpeg);">
-            <h1 class="mb-3 text-[20px] sm:text-[30px] font-bold"><span id="nama"></span>Welcome To MyPortofolio</h1>
-            <p class="text-[10px] sm:text-[15px]">This is a brief introduction about myself and my work.</p>
+        <section class="home-section text-white p-10 bg-[#132440] min-h-[500px] bg-contain sm:bg-cover md:bg-size-[1000px] lg:bg-cover bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/pertamina1.jpeg);">
+            <h1 class="mb-3 text-[15px] sm:text-[30px] font-bold"><span id="nama"></span>Welcome To MyPortofolio</h1>
+            <p class="text-[7px] sm:text-[15px]">This is a brief introduction about myself and my work.</p>
         </section>
         <hr>
-        <section class="min-h-[500px]"></section>
+        <!-- OUR PROFILE SECTION -->
+        <section id="Our-Profile" class="min-h-[500px]">
+            <h2 class="text-center text-[28px] font-bold p-10">OUR PROFILE</h2>
+            <div class="ml-10 grid grid-cols-5 content-start  gap-1 " >
+                <div class="bg-[#fff] rounded-md shadow-lg flex flex-col w-[200px] h-[200px]">
+                    <div class="h-[30%] flex justify-center item-center bg-cover" style="background-image: url(../miniProject-25Oct2025-revoU/asset/visi.jpeg);"></div>
+                    <div class="flex-1 flex justify-center item-center text-center font-bold text-blue">To become an energy company advancing the security, availability and sustainability of energy</div>
+                </div>
+                <div class="bg-red-500 w-[200px] h-[200px]"></div>
+                <div class="bg-red-500 w-[200px] h-[200px]"></div>
+                <div class="bg-red-500 w-[200px] h-[200px]"></div>
+                <div class="bg-red-500 w-[200px] h-[200px]"></div>
+            </div>
+        </section>
         <hr>
         <section class="min-h-[500px]"></section>
     </main>
