@@ -1,79 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio Roihan</title>
-    <link rel="stylesheet" href="../miniProject-25Oct2025-revoU/css/style.css">
+    <link
+      rel="stylesheet"
+      href="../miniProject-25Oct2025-revoU/css/style.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body class="font-sans bg-[#f3f3f3]" >
+  </head>
+  <body class="font-sans bg-[#f3f3f3]">
     <!-- Header Content -->
-    <header class="flex justify-between sticky z-999 top-0 items-center bg-[#132440] text-[10px] sm:text-[16px]">
-        <!-- logo -->
-         <div class="pl-2 sm:pl-5"> <img src="../miniProject-25Oct2025-revoU/asset/logo-pertamina.jpg" alt="LogoPertamina" srcset="" class="main-logo h-[45px] sm:h-[65px] w-[45px] sm:w-[65px] rounded-full m-1 sm:m-2"></div>
+    <header
+      class="flex justify-between sticky z-999 top-0 items-center bg-[#132440] text-[10px] sm:text-[16px]"
+    >
+      <!-- logo -->
+      <div class="pl-2 sm:pl-5">
+        <img
+          src="../miniProject-25Oct2025-revoU/asset/logo-pertamina.jpg"
+          alt="LogoPertamina"
+          srcset=""
+          class="main-logo h-[45px] sm:h-[65px] w-[45px] sm:w-[65px] rounded-full m-1 sm:m-2"
+        />
+      </div>
 
-         <!-- navigation menu -->
-          <nav class="flex gap-1  sm:2 pr-2 sm:2 text-white">
-            <a href="#home-section" class="p-1 sm:p-2 rounded-sm">Home</a>
-            <a href="#Our-Profile" class="p-1 sm:p-2 rounded-sm">Our Profile</a>
-            <a href="#" class="p-1 sm:p-2 rounded-sm">Portofolio</a>
-            <a href="#" class="p-1 sm:p-2 rounded-sm">MessageUs</a>
-          </nav>
+      <!-- navigation menu -->
+      <nav class="flex gap-1 sm:2 pr-2 sm:2 text-white">
+        <a href="#home" class="p-1 sm:p-2 rounded-sm">Home</a>
+        <a href="#Our-Profile" class="p-1 sm:p-2 rounded-sm">Our Profile</a>
+        <a href="#messageUS" class="p-1 sm:p-2 rounded-sm">MessageUs</a>
+      </nav>
     </header>
-    <hr>
+    <hr />
     <!-- main Content -->
     <main>
-        <!-- HOME SECTION -->
-        <section class="home-section text-white p-10 bg-[#132440] h-[350px]  sm:min-h-[500px] bg-contain sm:bg-cover md:bg-size-[1000px] lg:bg-cover bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/pertamina1.jpeg);">
-            <h1 class="mb-3 text-[15px] sm:text-[30px] font-bold"><span id="nama"></span>Welcome To MyPortofolio</h1>
-            <p class="text-[7px] sm:text-[15px]">This is a brief introduction about myself and my work.</p>
-        </section>
-        <hr>
-        <!-- OUR PROFILE SECTION -->
-        <section id="Our-Profile" class="">
-            <!-- header OUR PROFIle -->
-            <h2 class="shadow-lg bg-[#fff] rounded-md text-center font-bold p-10 text-[20px] sm:text-[24px]">OUR PROFILE</h2>
+      <!-- HOME SECTION -->
+      <section
+        id="home"
+        class="home-section text-white p-10 bg-[#132440] h-[350px] sm:min-h-[500px] bg-contain sm:bg-cover md:bg-size-[1000px] lg:bg-cover bg-no-repeat"
+        style="
+          background-image: url(../miniProject-25Oct2025-revoU/asset/pertamina1.jpeg);
+        "
+      >
+        <h1 class="mb-3 text-[15px] sm:text-[30px] font-bold">
+          <span id="nama"></span>Welcome To MyPortofolio
+        </h1>
+        <p class="text-[7px] sm:text-[15px]">
+          This is a brief introduction about myself and my work.
+        </p>
+      </section>
+      <hr />
+      <!-- OUR PROFILE SECTION -->
+      <section id="Our-Profile" class="">
+        <!-- header OUR PROFIle -->
+        <h2
+          class="shadow-lg bg-[#fff] rounded-md text-center font-bold p-10 text-[20px] sm:text-[24px] text-[#132440]"
+        >
+          OUR PROFILE
+        </h2>
 
-            <!-- OuR Profile Content -->
-            <div class="mt-0 grid grid-rows-5 content-start gap-4 " >
-                <div class="flex shadow-lg bg-[#fff] rounded-md" >
-                    <div class="w-[40%] flex justify-center items-center font-bold">
-                        <div class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/visi.jpeg);" ></div>
-                    </div>
-                    <div class="p-2 flex justify-center items-center text-[14px] sm:text-[18px] text-center font-bold ">"To become an energy company advancing the security, availability and sustainability of energy"
-                    </div>
-                </div>
-                <div class="flex shadow-lg bg-[#fff] rounded-md" >
-                    <div class="w-[40%] flex justify-center items-center font-bold">
-                        <div class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/misi.jpeg);" ></div>
-                    </div>
-                    <div class="p-2 flex justify-center items-center text-center font-bold ">"To provide energy with innovative solution that contributes added–value to people"
-                    </div>
-                </div>
-                <div class="flex shadow-lg bg-[#fff] rounded-md" >
-                    <div class="w-[40%] flex justify-center items-center font-bold">
-                        <div class="ml-3 w-[120px] h-[120px] bg-contain sm:w-[170px] sm:h-[170px] bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/lokasi.jpeg);" ></div>
-                    </div>
-                    <div class="p-2 flex justify-center items-center text-center font-bold ">"To become an energy company advancing the security, availability and sustainability of energy"
-                    </div>
-                </div>
-                <div class="flex shadow-lg bg-[#fff] rounded-md" >
-                    <div class="w-[40%] flex justify-center items-center font-bold">
-                        <div class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat" style="background-image: url(../miniProject-25Oct2025-revoU/asset/telepon.jpeg);" ></div>
-                    </div>
-                    <div class="p-2 flex justify-center items-center text-center font-bold ">"To become an energy company advancing the security, availability and sustainability of energy"
-                    </div>
-                </div>
+        <!-- OuR Profile Content -->
+        <div class="mt-0 grid grid-rows-4 content-start gap-4">
+          <div class="flex shadow-lg bg-[#fff] rounded-md">
+            <div class="w-[40%] flex justify-center items-center font-bold">
+              <div
+                class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat"
+                style="
+                  background-image: url(../miniProject-25Oct2025-revoU/asset/visi.jpeg);
+                "
+              ></div>
             </div>
+            <div
+              class="flex justify-center items-center text-[14px] sm:text-[16px] pr-2 text-center font-bold text-[#132440]"
+            >
+              "To become an energy company advancing the security, availability
+              and sustainability of energy"
+            </div>
+          </div>
+          <div class="flex shadow-lg bg-[#fff] rounded-md">
+            <div class="w-[40%] flex justify-center items-center font-bold">
+              <div
+                class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat"
+                style="
+                  background-image: url(../miniProject-25Oct2025-revoU/asset/misi.jpeg);
+                "
+              ></div>
+            </div>
+            <div
+              class="text-[14px] sm:text-[16px] pr-2 flex justify-center items-center text-center font-bold text-[#132440]"
+            >
+              "To provide energy with innovative solution that contributes
+              added–value to people"
+            </div>
+          </div>
+          <div class="flex shadow-lg bg-[#fff] rounded-md">
+            <div class="w-[40%] flex justify-center items-center font-bold">
+              <div
+                class="ml-3 w-[120px] h-[120px] bg-contain sm:w-[170px] sm:h-[170px] bg-no-repeat"
+                style="
+                  background-image: url(../miniProject-25Oct2025-revoU/asset/lokasi.jpeg);
+                "
+              ></div>
+            </div>
+            <div
+              class="text-[14px] sm:text-[16px] pr-2 flex justify-center items-center text-center text-[#132440]"
+            >
+              <p>
+                <span class="font-bold">Address :</span> Grha Pertamina, Jl.
+                Medan Merdeka Timur No.11-13, Jakarta 10110 Indonesia
+              </p>
+            </div>
+          </div>
+          <div class="flex shadow-lg bg-[#fff] rounded-md">
+            <div class="w-[40%] flex justify-center items-center font-bold">
+              <div
+                class="ml-[-40px] w-[150px] h-[150px] bg-contain sm:w-[170px] sm:h-[170px] bg-no-repeat"
+                style="
+                  background-image: url(../miniProject-25Oct2025-revoU/asset/email.jpeg);
+                "
+              ></div>
+            </div>
+            <div
+              class="text-[14px] sm:text-[16px] flex justify-center items-center text-center text-[#132440]"
+            >
+              <p>
+                <span class="font-bold">Email: </span> infopublik@pertamina.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <!--  -->
-        </section>
-        <hr>
-        <section class="min-h-[500px]"></section>
+      <!-- MessageUS -->
+      <section
+        id="messageUS"
+        class="text-[#132440] flex-rows sm:p-6 sm:flex-rows md:flex justify-center items-center sm:justify-center sm:items-center min-h-[500px]"
+      >
+        <div
+          class="sm:flex-col shadow-2xl shadow-[#132440] rounded-lg ml-4 mt-7 p-8 bg-[#fff] h-[600px] w-[400px] sm:w-[600px] mb-8"
+        >
+          <h2 class="text-center font-bold mb-2 text-[24px] sm:text-[36px]">
+            Message Us
+          </h2>
+          <p class="text-[13px] mb-4 sm:text-[16px]">
+            Feel free to reach out for collaborations or inquiries.
+          </p>
+          <form class="text-[14px]">
+            <label for="name" class="block font-bold mb-2">Name :</label>
+            <input
+              type="text"
+              id="name-input"
+              name="name"
+              class="border p-2 mb-4 w-full"
+              required
+            />
+
+            <label for="TempatLahir" class="block mb-2 font-bold"
+              >Tempat Lahir :</label
+            >
+            <input
+              type="text"
+              id="tempatLahir"
+              name="tempatLahir"
+              class="border p-2 mb-4 w-full"
+              required
+            />
+
+            <label for="jk" class="block mb-2 font-bold">Jenis Kelamin :</label>
+
+            <label class="flex items-center">
+              <input
+                type="radio"
+                name="jk"
+                value="Laki-laki"
+                class="accent-blue-600 mr-2"
+                required
+              />
+              Laki-laki
+            </label>
+            <label class="flex items-center">
+              <input
+                type="radio"
+                name="jk"
+                value="Perempuan"
+                class="accent-pink-600 mr-2"
+                required
+              />
+              Perempuan
+            </label>
+
+            <label for="message" class="block mb-2">Message:</label>
+            <textarea
+              id="message-input"
+              name="message"
+              class="border p-2 mb-4 w-full"
+              rows="4"
+              required
+            ></textarea>
+
+            <button
+              onclick="resultForm(event);"
+              class="bg-[#132440] text-white p-2 rounded w-[100%]"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+        <div
+          class="ml-6 mr-3 w-[400px] sm:w-[500px] h-[300px] bg-[#fff] shadow-2xl justify-center text-center"
+        >
+          <h1 class="font-bold pt-4">RESULT</h1>
+          <table class="text-left">
+            <tr>
+              <td class="pl-2">Current Time</td>
+              <td class="p-2">:</td>
+            </tr>
+            <tr>
+              <td class="pl-2">Nama</td>
+              <td class="p-2" id="nama-result">:</td>
+            </tr>
+            <tr>
+              <td class="pl-2">Tanggal Lahir</td>
+              <td class="p-2" id="tempatL">:</td>
+            </tr>
+            <tr>
+              <td class="pl-2">Jenis Kelamin</td>
+              <td class="p-2" id="jk">:</td>
+            </tr>
+            <tr>
+              <td class="pl-2">Pesan</td>
+              <td class="p-2" id="message">:</td>
+            </tr>
+          </table>
+        </div>
+      </section>
     </main>
     <!-- footer content -->
-    <footer></footer>
+    <footer
+      id="footer"
+      class="flex mt-7 border-t-4 w-[100%] h-[50px] bg-[#132440] justify-center items-center text-[#fff] text-[12px] sm:text-[15px]"
+    >
+      <p>Created BY || @RoihanTauhid</p>
+    </footer>
     <script src="../miniProject-25Oct2025-revoU/js/script.js"></script>
-</body>
+  </body>
 </html>
