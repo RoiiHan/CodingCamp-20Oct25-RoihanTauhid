@@ -13,13 +13,18 @@ function resultForm(event) {
   const jk = document.querySelector("input[name='jk']:checked");
   const message = document.getElementById("message-input").value;
 
-  if (jk.checked) {
-    documentgetElementById;
+  const now = new Date();
+  document.getElementById(
+    "currentTime"
+  ).innerHTML = `: ${now.toLocaleString()}`;
+
+  if (jk) {
+    const resultGender = jk.value;
+    document.getElementById("jk").innerHTML = `: ${resultGender}`;
   }
 
   document.getElementById("nama-result").innerHTML = `: ${name}`;
   document.getElementById("tempatL").innerHTML = `: ${tempatL}`;
-  document.getElementById("jk").innerHTML = `: ${jk}`;
   document.getElementById("message").innerHTML = `: ${message}`;
 }
 
