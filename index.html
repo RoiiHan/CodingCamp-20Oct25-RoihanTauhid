@@ -9,102 +9,121 @@
   <body class="font-sans bg-[#f3f3f3]">
     <!-- Header Content -->
     <header
-      class="flex justify-between sticky z-999 top-0 items-center bg-[#132440] text-[10px] sm:text-[16px]"
+      class="flex justify-between sticky z-999 top-0 items-center bg-[#132440] text-[10px] sm:text-[16px] px-2 sm:px-5"
     >
       <!-- logo -->
-      <div class="pl-2 sm:pl-5">
+      <div class="pl-0 sm:pl-5">
         <img
           src="asset/logo-pertamina.jpg"
           alt="LogoPertamina"
-          srcset=""
-          class="main-logo h-[45px] sm:h-[65px] w-[45px] sm:w-[65px] rounded-full m-1 sm:m-2"
+          class="main-logo h-[40px] w-[40px] sm:h-[65px] sm:w-[65px] rounded-full m-1 sm:m-2"
         />
       </div>
 
       <!-- navigation menu -->
-      <nav class="flex gap-1 sm:2 pr-2 sm:2 text-white">
+      <nav class="flex gap-1 pr-1 text-white sm:gap-3 sm:pr-2">
         <a
           href="#home"
-          class="p-1 sm:p-2 rounded-[12px] hover:bg-white hover:text-black duration-[0.3s]"
+          class="p-1 sm:p-2 rounded-[8px] hover:bg-white hover:text-black duration-[0.3s]"
           >Home</a
         >
         <a
           href="#Our-Profile"
-          class="p-1 sm:p-2 rounded-[12px] hover:bg-white hover:text-black duration-[0.3s]"
+          class="p-1 sm:p-2 rounded-[8px] hover:bg-white hover:text-black duration-[0.3s]"
           >Our Profile</a
         >
         <a
           href="#messageUS"
-          class="p-1 sm:p-2 rounded-[12px] hover:bg-white hover:text-black duration-[0.3s]"
+          class="p-1 sm:p-2 rounded-[8px] hover:bg-white hover:text-black duration-[0.3s]"
           >MessageUs</a
         >
       </nav>
     </header>
     <hr />
+
     <!-- main Content -->
     <main>
       <!-- HOME SECTION -->
       <section
         id="home"
-        class="home-section text-white p-10 bg-[#132440] h-[350px] sm:min-h-[500px] bg-contain sm:bg-cover md:bg-size-[1000px] lg:bg-cover bg-no-repeat"
+        class="home-section text-white p-6 bg-[#132440] min-h-[350px] sm:min-h-[500px] bg-cover bg-center bg-no-repeat"
         style="background-image: url(asset/pertamina1.jpeg)"
       >
-        <h1 class="mb-3 text-[15px] sm:text-[30px] font-bold">
+        <h1 class="mb-3 text-[16px] sm:text-[30px] font-bold leading-tight">
           <span id="nama"></span>Welcome To MyCompany Profile
         </h1>
-        <p class="text-[7px] sm:text-[15px]">
+        <p class="text-[10px] sm:text-[15px] leading-snug">
           This is a brief introduction about my company.
         </p>
       </section>
+
       <hr />
+
       <!-- OUR PROFILE SECTION -->
-      <section id="Our-Profile" class="">
-        <!-- header OUR PROFIle -->
+      <section id="Our-Profile">
+        <!-- header OUR PROFILE -->
         <h2
-          class="shadow-lg bg-[#fff] rounded-md text-center font-bold p-10 text-[20px] sm:text-[24px] text-[#132440]"
+          class="shadow-lg bg-[#fff] rounded-md text-center font-bold py-6 text-[18px] sm:text-[24px] text-[#132440]"
         >
           OUR PROFILE
         </h2>
 
-        <!-- OuR Profile Content -->
-        <div class="mt-0 grid grid-rows-4 content-start gap-4">
-          <div class="flex shadow-lg bg-[#fff] rounded-md">
-            <div class="w-[40%] flex justify-center items-center font-bold">
+        <!-- OUR PROFILE Content -->
+        <div class="mt-0 flex flex-col gap-4 p-2 sm:grid sm:grid-rows-4">
+          <!-- Card 1 -->
+          <div
+            class="flex flex-col sm:flex-row shadow-lg bg-[#fff] rounded-md overflow-hidden"
+          >
+            <div
+              class="w-full sm:w-[40%] flex justify-center items-center font-bold"
+            >
               <div
-                class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat"
+                class="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] bg-contain bg-no-repeat"
                 style="background-image: url(asset/visi.jpeg)"
               ></div>
             </div>
             <div
-              class="flex justify-center items-center text-[14px] sm:text-[16px] pr-2 text-center font-bold text-[#132440]"
+              class="flex justify-center items-center text-[13px] sm:text-[16px] px-4 py-2 text-center font-bold text-[#132440]"
             >
               "To become an energy company advancing the security, availability
               and sustainability of energy"
             </div>
           </div>
-          <div class="flex shadow-lg bg-[#fff] rounded-md">
-            <div class="w-[40%] flex justify-center items-center font-bold">
+
+          <!-- Card 2 -->
+          <div
+            class="flex flex-col sm:flex-row shadow-lg bg-[#fff] rounded-md overflow-hidden"
+          >
+            <div
+              class="w-full sm:w-[40%] flex justify-center items-center font-bold"
+            >
               <div
-                class="w-[150px] h-[150px] bg-contain sm:w-[200px] sm:h-[200px] bg-no-repeat"
+                class="w-[100px] h-[100px] sm:w-[200px] sm:h-[200px] bg-contain bg-no-repeat"
                 style="background-image: url(asset/misi.jpeg)"
               ></div>
             </div>
             <div
-              class="text-[14px] sm:text-[16px] pr-2 flex justify-center items-center text-center font-bold text-[#132440]"
+              class="text-[13px] sm:text-[16px] px-4 py-2 flex justify-center items-center text-center font-bold text-[#132440]"
             >
               "To provide energy with innovative solution that contributes
               added–value to people"
             </div>
           </div>
-          <div class="flex shadow-lg bg-[#fff] rounded-md">
-            <div class="w-[40%] flex justify-center items-center font-bold">
+
+          <!-- Card 3 -->
+          <div
+            class="flex flex-col sm:flex-row shadow-lg bg-[#fff] rounded-md overflow-hidden"
+          >
+            <div
+              class="w-full sm:w-[40%] flex justify-center items-center font-bold"
+            >
               <div
-                class="ml-3 w-[120px] h-[120px] bg-contain sm:w-[170px] sm:h-[170px] bg-no-repeat"
+                class="w-[100px] h-[100px] sm:w-[170px] sm:h-[170px] bg-contain bg-no-repeat"
                 style="background-image: url(asset/lokasi.jpeg)"
               ></div>
             </div>
             <div
-              class="text-[14px] sm:text-[16px] pr-2 flex justify-center items-center text-center text-[#132440]"
+              class="text-[13px] sm:text-[16px] px-4 py-2 flex justify-center items-center text-center text-[#132440]"
             >
               <p>
                 <span class="font-bold">Address :</span> Grha Pertamina, Jl.
@@ -112,15 +131,21 @@
               </p>
             </div>
           </div>
-          <div class="flex shadow-lg bg-[#fff] rounded-md">
-            <div class="w-[40%] flex justify-center items-center font-bold">
+
+          <!-- Card 4 -->
+          <div
+            class="flex flex-col sm:flex-row shadow-lg bg-[#fff] rounded-md overflow-hidden"
+          >
+            <div
+              class="w-full sm:w-[40%] flex justify-center items-center font-bold"
+            >
               <div
-                class="w-[150px] h-[150px] bg-contain sm:w-[170px] sm:h-[170px] bg-no-repeat"
+                class="w-[100px] h-[100px] sm:w-[170px] sm:h-[170px] bg-contain bg-no-repeat"
                 style="background-image: url(asset/aboutUs.jpeg)"
               ></div>
             </div>
             <div
-              class="p-5 text-[14px] sm:text-[16px] flex flex-[40%] justify-center items-center text-center text-[#132440]"
+              class="p-4 text-[13px] sm:text-[16px] flex justify-center items-center text-center text-[#132440]"
             >
               <p>
                 <span class="font-bold">Tentang:</span> Pertamina adalah
@@ -138,27 +163,27 @@
         </div>
       </section>
 
-      <!-- MessageUS -->
+      <!-- MESSAGE US -->
       <section
         id="messageUS"
-        class="text-[#132440] flex-rows sm:p-6 sm:flex-rows md:flex justify-center items-center sm:justify-center sm:items-center min-h-[500px]"
+        class="text-[#132440] flex flex-col sm:flex-row justify-center items-center p-4 sm:p-6 min-h-[500px] gap-4"
       >
         <div
-          class="sm:flex-col shadow-2xl shadow-[#132440] rounded-lg ml-4 mt-7 p-8 bg-[#fff] h-[600px] w-[400px] sm:w-[600px] mb-8"
+          class="shadow-2xl shadow-[#132440] rounded-lg w-full sm:w-[600px] bg-[#fff] p-6"
         >
-          <h2 class="text-center font-bold mb-2 text-[24px] sm:text-[36px]">
+          <h2 class="text-center font-bold mb-2 text-[22px] sm:text-[36px]">
             Message Us
           </h2>
-          <p class="text-[13px] mb-4 sm:text-[16px]">
+          <p class="text-[13px] mb-4 sm:text-[16px] text-center">
             Feel free to reach out for collaborations or inquiries.
           </p>
-          <form class="text-[14px]">
+          <form class="text-[13px] sm:text-[14px]">
             <label for="name" class="block font-bold mb-2">Name :</label>
             <input
               type="text"
               id="name-input"
               name="name"
-              class="border p-2 mb-4 w-full"
+              class="border p-2 mb-4 w-full rounded"
               required
             />
 
@@ -169,55 +194,57 @@
               type="text"
               id="tempatLahir"
               name="tempatLahir"
-              class="border p-2 mb-4 w-full"
+              class="border p-2 mb-4 w-full rounded"
               required
             />
 
             <label for="jk" class="block mb-2 font-bold">Jenis Kelamin :</label>
+            <div class="flex gap-4 mb-4">
+              <label class="flex items-center">
+                <input
+                  type="radio"
+                  name="jk"
+                  value="Laki-laki"
+                  class="accent-blue-600 mr-2"
+                  required
+                />
+                Laki-laki
+              </label>
+              <label class="flex items-center">
+                <input
+                  type="radio"
+                  name="jk"
+                  value="Perempuan"
+                  class="accent-pink-600 mr-2"
+                  required
+                />
+                Perempuan
+              </label>
+            </div>
 
-            <label class="flex items-center">
-              <input
-                type="radio"
-                name="jk"
-                value="Laki-laki"
-                class="accent-blue-600 mr-2"
-                required
-              />
-              Laki-laki
-            </label>
-            <label class="flex items-center">
-              <input
-                type="radio"
-                name="jk"
-                value="Perempuan"
-                class="accent-pink-600 mr-2"
-                required
-              />
-              Perempuan
-            </label>
-
-            <label for="message" class="block mb-2">Message:</label>
+            <label for="message" class="block mb-2 font-bold">Message:</label>
             <textarea
               id="message-input"
               name="message"
-              class="border p-2 mb-4 w-full"
+              class="border p-2 mb-4 w-full rounded"
               rows="4"
               required
             ></textarea>
 
             <button
               onclick="resultForm(event);"
-              class="bg-[#132440] text-white p-2 rounded w-[100%]"
+              class="bg-[#132440] text-white p-2 rounded w-full"
             >
               Send Message
             </button>
           </form>
         </div>
+
         <div
-          class="ml-6 mr-3 w-[400px] sm:w-[500px] h-[300px] bg-[#fff] shadow-2xl justify-center text-center"
+          class="w-full sm:w-[500px] bg-[#fff] shadow-2xl rounded-lg mt-4 sm:mt-0 p-4 text-center"
         >
-          <h1 class="font-bold pt-4">RESULT</h1>
-          <table class="text-left">
+          <h1 class="font-bold text-[18px] sm:text-[22px]">RESULT</h1>
+          <table class="text-left text-[12px] sm:text-[14px] mx-auto mt-2">
             <tr>
               <td class="pl-2 font-bold">Current Time</td>
               <td class="p-2" id="currentTime">:</td>
@@ -242,13 +269,15 @@
         </div>
       </section>
     </main>
-    <!-- footer content -->
+
+    <!-- FOOTER -->
     <footer
       id="footer"
-      class="flex mt-7 border-t-4 w-[100%] h-[50px] bg-[#132440] justify-center items-center text-[#fff] text-[12px] sm:text-[15px]"
+      class="flex mt-7 border-t-4 w-full h-[50px] bg-[#132440] justify-center items-center text-[#fff] text-[12px] sm:text-[15px]"
     >
       <p>Created BY || @RoihanTauhid</p>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
