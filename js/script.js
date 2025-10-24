@@ -1,4 +1,4 @@
-//  namaPengunjung()
+namaPengunjung();
 
 function namaPengunjung() {
   let nama = prompt("Masukkan Nama Anda : ");
@@ -27,5 +27,3 @@ function resultForm(event) {
   document.getElementById("tempatL").innerHTML = `: ${tempatL}`;
   document.getElementById("message").innerHTML = `: ${message}`;
 }
-
-resultForm();
